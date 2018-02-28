@@ -40,14 +40,13 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* EPSignature_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPSignature_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76334BC24A09F53C3E741719 /* Pods_EPSignature_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPSignature_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80B384D2F1FB9E801E17B03E /* EPSignature.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EPSignature.podspec; path = ../EPSignature.podspec; sourceTree = "<group>"; };
+		80B384D2F1FB9E801E17B03E /* EPSignature.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EPSignature.podspec; path = ../EPSignature.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9505CA2A7C08D1FAE19D88BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BADBD621301FD946BBB4C228 /* Pods-EPSignature_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPSignature_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EPSignature_Tests/Pods-EPSignature_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9344E58733CDC0A7D5F89F5 /* Pods_EPSignature_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPSignature_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC7FAB870C77D62CB94C285 /* Pods-EPSignature_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPSignature_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EPSignature_Example/Pods-EPSignature_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4610E921C4E435800D093B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4610E931C4E435800D093B5 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		F4670B2D1C4E58810093CD0F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +135,6 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F4670B2D1C4E58810093CD0F /* .travis.yml */,
 				80B384D2F1FB9E801E17B03E /* EPSignature.podspec */,
 				9505CA2A7C08D1FAE19D88BE /* README.md */,
 				1A2C351F6862054EE1849CD1 /* LICENSE */,
